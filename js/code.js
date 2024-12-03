@@ -1,4 +1,4 @@
-  
+    
 // Função para buscar o livro na API
 function searchBook() {
     const apiKey = "AIzaSyCnJynmT8SU_yjMTJ8uHFycA8Eb7O06t50";
