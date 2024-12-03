@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#book-details {
+    margin-top: 20px;
+}
+#book-details img {
+    max-width: 120px;
+    margin-top: 10px;
+}
+#favorites-list {
+    margin-top: 20px;
+}
+.book {
+    margin-bottom: 10px;
+}
+.book h3{
+    display: flex;
+    align-items: center;
+}
+.drop{
+    cursor: pointer;
+}
+#des{
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+#des.ativeDrop{
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    overflow: visible;
+    visibility: visible;
+    background-color: silver;
+    justify-content: center;
+}
